@@ -90,6 +90,9 @@ DEVICE_MATRIX_FILE := $(DEVICE_PATH)/manifests/compatibility_matrix.xml
 ODM_MANIFEST_SKUS := nfc
 ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifests/manifest_nfc.xml
 
+# Malloc
+MALLOC_SVELTE := true
+
 # Media
 TARGET_DISABLED_UBWC := true
 
