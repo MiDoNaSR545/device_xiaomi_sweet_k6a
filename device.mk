@@ -338,6 +338,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.sweet.rc \
     init.target.rc \
+    init.display.refresh.sh \
     ueventd.sweet.rc
 
 PRODUCT_COPY_FILES += \

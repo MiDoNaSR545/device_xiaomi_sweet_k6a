@@ -166,6 +166,9 @@ PRODUCT_VENDOR_PROPERTIES += \
 ro.soc.manufacturer=QTI \
 ro.soc.model=SM7150
 
+PRODUCT_VENDOR_PROPERTIES += \
+persist.metadata_dynfps.disable=true
+
 # Crypto
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.crypto.dm_default_key.options_format.version=2 \
