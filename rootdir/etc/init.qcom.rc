@@ -230,6 +230,9 @@ on property:sys.boot_completed=1
 
     start qcom-post-boot
 
+    # Enable suspend to RAM
+    write /sys/power/mem_sleep "deep"
+
     # Enable UFS clock scaling back
     write /sys/bus/platform/devices/1d84000.ufshc/clkscale_enable 1
 
