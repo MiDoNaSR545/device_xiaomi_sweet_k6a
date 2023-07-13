@@ -31,6 +31,11 @@ import /vendor/etc/init/init.batterysecret.rc
 import /vendor/etc/init/init.mi_thermald.rc
 import /vendor/etc/init/hw/init.sweet.rc
 
+on early-init
+
+    # Start audio adsp rpc daemon at early init stage
+    start vendor.audioadsprpcd_audiopd
+
 on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
