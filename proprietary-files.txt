@@ -53,6 +53,9 @@ vendor/lib/rfsa/adsp/libdirac-capiv2.so
 # ANT+
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
+# Audio FX modules - from cheetah-tq3a.230605.012
+vendor/lib/soundfx/libspatialaudio.so|b26727b8887dad56f5e183f7145487c88bd2f065
+
 # Audio
 vendor/lib/liba2dpoffload.so
 vendor/lib/libacdb-fts.so
