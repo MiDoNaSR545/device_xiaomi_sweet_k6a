@@ -48,6 +48,9 @@ TARGET_USES_ION := true
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/config.fs
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_sweet
 TARGET_RECOVERY_DEVICE_MODULES := libinit_sweet
