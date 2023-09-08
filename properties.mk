@@ -109,7 +109,9 @@ persist.vendor.audio.fluence.voicerec=false
 PRODUCT_SYSTEM_PROPERTIES += \
 persist.vendor.audio.spatializer.speaker_enabled=true \
 ro.audio.spatializer_enabled=true \
-audio.spatializer.effect.util_clamp_min=300
+audio.spatializer.effect.util_clamp_min=300 \
+ro.audio.spatializer_transaural_enabled_default=false \
+persist.vendor.audio.spatializer.speaker_enabled=true
 
 # Bluetooth
 PRODUCT_PRODUCT_PROPERTIES += \
