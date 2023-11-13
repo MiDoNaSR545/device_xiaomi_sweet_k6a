@@ -164,6 +164,10 @@ ro.crypto.dm_default_key.options_format.version=2 \
 ro.crypto.volume.filenames_mode=aes-256-cts \
 ro.crypto.volume.metadata.method=dm-default-key
 
+# Disable MTE Async for system server
+PRODUCT_SYSTEM_PROPERTIES += \
+arm64.memtag.process.system_server=off
+
 # DPM
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
 persist.vendor.dpm.feature=11 \
