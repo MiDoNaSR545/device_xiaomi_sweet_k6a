@@ -253,6 +253,11 @@ debug.hwui.skia_atrace_enabled=false
 PRODUCT_PRODUCT_PROPERTIES += \
 ro.sf.force_hwc_brightness=1
 
+# HWUI
+PRODUCT_VENDOR_PROPERTIES += \
+debug.hwui.use_hint_manager=true \
+debug.hwui.target_cpu_time_percent=30
+
 # Incremental FS
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.incremental.enable=1
