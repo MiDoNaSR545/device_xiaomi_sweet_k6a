@@ -367,6 +367,12 @@ ro.surface_flinger.max_virtual_display_dimension=4096 \
 ro.surface_flinger.protected_contents=true \
 ro.surface_flinger.wcg_composition_dataspace=143261696
 
+# Suspend properties
+PRODUCT_VENDOR_PROPERTIES += \
+suspend.max_sleep_time_millis=40000 \
+suspend.short_suspend_threshold_millis=2000 \
+suspend.short_suspend_backoff_enabled=true \
+
 # System
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.sys.binary_xml=false
