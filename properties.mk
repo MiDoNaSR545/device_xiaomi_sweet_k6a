@@ -35,6 +35,20 @@ vendor.audio_hal.period_multiplier=3 \
 vendor.voice.path.for.pcm.voip=false \
 vendor.audio_hal.period_size=192
 
+# Dolby
+PRODUCT_VENDOR_PROPERTIES += \
+vendor.audio.dolby.ds2.enabled=true \
+vendor.audio.dolby.ds2.hardbypass=false \
+ro.vendor.audio.dolby.dax.version=DAX3_3.6.0.12_r1 \
+ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1 \
+ro.vendor.audio.misound.bluetooth.enable=true \
+ro.vendor.product.device.db=OP_DEVICE \
+ro.vendor.product.manufacturer.db=OP_PHONE \
+persist.vendor.audio.misound.disable=false \
+vendor.product.device=OP_PHONE \
+vendor.product.manufacturer=OPD
+
+
 # Audio (ximi)
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.audio.delta.refresh=false \
