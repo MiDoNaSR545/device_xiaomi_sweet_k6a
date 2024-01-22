@@ -294,7 +294,8 @@ persist.vendor.data.iwlan.enable=true
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.extension_library=libqti-perfd-client.so \
+vendor.perf.framepacing.enable=1
 
 # Radio/RIL
 PRODUCT_PROPERTY_OVERRIDES += \
