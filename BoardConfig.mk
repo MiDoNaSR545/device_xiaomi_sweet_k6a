@@ -90,6 +90,10 @@ ODM_MANIFEST_NFC_FILES := $(DEVICE_PATH)/manifests/manifest_nfc.xml
 # Media
 TARGET_DISABLED_UBWC := true
 
+# Display
+TARGET_HAS_HDR_DISPLAY := true
+TARGET_HAS_WIDE_COLOR_DISPLAY := true
+
 # Partitions
 BOARD_SUPER_PARTITION_GROUPS := qti_dynamic_partitions
 BOARD_QTI_DYNAMIC_PARTITIONS_PARTITION_LIST := \
