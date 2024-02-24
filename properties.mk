@@ -371,3 +371,13 @@ persist.debug.wfd.enable=1 \
 # Zygote
 PRODUCT_PROPERTY_OVERRIDES += \
 zygote.critical_window.minute=10
+
+PRODUCT_VENDOR_PROPERTIES += \
+ro.surface_flinger.enable_frame_rate_override=false \
+debug.sf.latch_unsignaled=0 \
+debug.hwui.target_cpu_time_percent=30 \
+debug.hwui.use_hint_manager=true \
+suspend.max_sleep_time_millis=40000 \
+suspend.short_suspend_threshold_millis=2000 \
+suspend.short_suspend_backoff_enabled=true \
+vendor.display.use_smooth_motion=1
