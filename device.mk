@@ -132,6 +132,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libsdmcore-shim
 
+# Doze
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
