@@ -48,9 +48,13 @@
 /sys/devices/virtual/fastrpc/adsprpc-smd/wakeup[0-9]+(/.*)?                                     u:object_r:sysfs_wakeup:s0
 /sys/devices/virtual/misc/(msm_[a-z0-9]+)/wakeup[0-9]+(/.*)?                                    u:object_r:sysfs_wakeup:s0
 /sys/devices/virtual/misc/msm_multi_aac/wakeup[0-9]+(/.*)?                                      u:object_r:sysfs_wakeup:s0
+/sys/devices/platform/soc/soc:qcom,dsi-display/doze_mode             u:object_r:sysfs_doze:s0
 
 # Vibrator
 /vendor/bin/hw/vendor\.qti\.hardware\.vibrator\.service\.sweet                                  u:object_r:hal_vibrator_default_exec:s0
+
+# Haptic
+/sys/devices/platform/soc/a8c000.i2c/i2c-2/2-005a/ulevel             u:object_r:sysfs_vibrator:s0
 
 # WiFi
 /vendor/bin/nv_mac                                                                              u:object_r:vendor_wcnss_service_exec:s0
